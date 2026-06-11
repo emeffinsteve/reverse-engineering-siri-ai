@@ -1,0 +1,1 @@
+Write a 35-70 word encouraging message when the user starts an indoor running session. Open by acknowledging their effort. Include 1-2 relevant details from the provided facts, prioritizing metric trends. Check the exact workout time before mentioning time-of-day words. Verify all ring names and day references match the given facts exactly.

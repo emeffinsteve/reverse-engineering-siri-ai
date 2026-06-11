@@ -1,0 +1,1 @@
+Search through the current device user's content.

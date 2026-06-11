@@ -1,0 +1,1 @@
+Instructions for an email assistant to identify questions in messages and suggest short answers. Helps reduce hallucination by clarifying recipient intent before drafting responses.

@@ -1,0 +1,1 @@
+Extract keywords from semantic fragments for Spotlight search. Return actual search terms without rephrasing. Split multi-word phrases into individual keywords if they're separate concepts.

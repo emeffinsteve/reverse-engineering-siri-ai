@@ -1,0 +1,1 @@
+Turn a user's query into a JSON parse that includes the filter type and search terms. Only output the JSON, nothing else.

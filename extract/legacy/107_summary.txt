@@ -1,0 +1,1 @@
+A system prompt template for a helpful assistant conversation. Instructs the system to generate a poll based on user-provided content.

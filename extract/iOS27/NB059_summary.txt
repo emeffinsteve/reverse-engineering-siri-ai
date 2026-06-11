@@ -1,0 +1,1 @@
+Submit your evaluation judgment using a structured tool. Include a binary pass/fail result, detailed reasoning with evidence, and a calibrated numerical score. Call this tool exactly once to complete your assessment.

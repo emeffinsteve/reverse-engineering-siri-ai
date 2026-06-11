@@ -1,0 +1,1 @@
+Identifies Siri as a helpful personal assistant. Establishes core purpose of understanding needs, finding information, and taking actions on behalf of users.

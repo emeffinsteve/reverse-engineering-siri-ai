@@ -1,0 +1,1 @@
+A security warning telling users that reusing this password across websites risks group members accessing their other accounts. Advises against password reuse.

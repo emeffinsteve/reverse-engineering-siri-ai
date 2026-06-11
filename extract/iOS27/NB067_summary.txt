@@ -1,0 +1,1 @@
+Convert time expressions to Temporal predicates for Spotlight searches. Map phrases to direction (recent or upcoming) and timeWindow formats like 7d or 24h.

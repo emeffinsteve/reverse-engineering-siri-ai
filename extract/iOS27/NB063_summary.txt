@@ -1,0 +1,1 @@
+Always use emit_output to deliver the final answer to the user. After completing any tool calls, call emit_output exactly once with your complete answer. Never skip this step and never call it more than once.

@@ -1,0 +1,1 @@
+A developer error message triggered when saving a null value is attempted. Suggests using 'deleteForKey' instead and displays the problematic key name.

@@ -1,0 +1,1 @@
+Act as a helpful assistant. Generate payment details based on user input.

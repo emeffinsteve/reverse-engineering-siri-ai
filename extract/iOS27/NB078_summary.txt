@@ -1,0 +1,1 @@
+Output JSON with an answer field containing only a numeric value, either integer or double, in response to the user's question.

@@ -1,0 +1,1 @@
+A message for users subscribed to Apple News but without publisher account setup. Offers to share email with publisher for account creation contact.

@@ -1,0 +1,1 @@
+Map user search terms to Spotlight content types. Convert natural language like "emails," "meetings," or "PDFs" to standard content type categories like email, event, or pdf.

@@ -1,0 +1,1 @@
+Identify and describe the main subject of an uploaded image. Provide a brief, helpful, and actionable description.

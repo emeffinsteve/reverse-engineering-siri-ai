@@ -1,0 +1,1 @@
+A user context message indicating the person is removing access to a subscribed calendar. Alerts the system to handle calendar unsubscribe operations.

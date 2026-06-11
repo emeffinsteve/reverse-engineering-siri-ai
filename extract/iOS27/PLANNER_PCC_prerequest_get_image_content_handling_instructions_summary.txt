@@ -1,0 +1,1 @@
+Instructions for handling images in PCC mode covering DRM content detection, visual perception, fact-checking requirements, and 250-character find query limits.

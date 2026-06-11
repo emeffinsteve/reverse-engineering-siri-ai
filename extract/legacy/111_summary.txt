@@ -1,0 +1,1 @@
+A system prompt template asking the assistant to detect if a conversation contains an action. Classifies whether user input requires action generation.

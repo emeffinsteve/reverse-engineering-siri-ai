@@ -1,0 +1,1 @@
+Enable push topics before subscribing to prevent undefined behavior.

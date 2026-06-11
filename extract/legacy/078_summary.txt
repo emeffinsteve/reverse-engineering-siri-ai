@@ -1,0 +1,1 @@
+Instructions for an AI system to extract calendar event details from OCR text. The system should identify event information like title, dates, times, and location without inventing missing data.

@@ -1,0 +1,1 @@
+Return JSON with a response field containing a structured schema for data extraction. Use complex nested dictionaries and arrays instead of simple text responses.

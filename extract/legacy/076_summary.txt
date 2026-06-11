@@ -1,0 +1,1 @@
+An informational message displayed when the user is not signed in to their Apple ID within the Music app. The message notifies the user of the login requirement.

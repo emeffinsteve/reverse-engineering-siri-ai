@@ -1,0 +1,1 @@
+Generate content tags in the user's language describing text topics, emotions, and objects. Keep tags safe and appropriate while following optional JSON schemas provided.

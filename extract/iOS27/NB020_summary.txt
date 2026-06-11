@@ -1,0 +1,1 @@
+Answer specific user questions about their name or nickname from the Me card using only exact query formats like "who am I" or "what is my name."

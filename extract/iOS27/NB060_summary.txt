@@ -1,0 +1,1 @@
+Classify email content into categories based on structured information: appointment, order_updates, receipts, invitation, ticket, flight, transport_ticket, hotel, shipping_updates, movie, restaurant, car, or no_event. Prioritize specific details over generic text.

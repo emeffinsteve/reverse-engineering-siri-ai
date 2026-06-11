@@ -1,0 +1,1 @@
+Resolve natural language constraints to Spotlight metadata attributes. Map user expressions to the appropriate file system or content attributes for search filtering.
