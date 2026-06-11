@@ -1,0 +1,6 @@
+# Owning binary : ContentKit
+# Status        : NEW in iOS 27 (absent from 26.5.1 cache)
+# Note          : prompt/instruction without the phrase "you are"; embedded __cstring in dyld_shared_cache.
+======================================================================
+
+Your output MUST be a dictionary with a 'uuidList' field with a list of UUIDs. If you want to reference any of the provided JSON items in your response, get the 'uuid' field of each JSON object from the input you want to reference, and return as part of the 'uuidList'.

@@ -1,0 +1,68 @@
+# Owning binary : TextUnderstandingRuntime
+# Status        : NEW in iOS 27 (not in 26.5.1)
+# Source        : embedded __cstring in dyld_shared_cache_arm64e (24A5355q)
+======================================================================
+
+ommas are used to separate clauses, salutations, sign-offs or list items.
+      - Do not hallucinate your answer if no such comma usage is found in the user emails.
+      Examples:
+      - \u2713 Valid: "When I arrived, I sat down.", "I bought apples, oranges, and bananas.", "Please review the budget, timeline, and deliverables.", "Hi John,", "Thanks, Tom"
+      - \u2717 Invalid: "I arrived and sat down", "Hi I'm writing to", "Thanks John" (No comma)
+    - Stylistic Pauses: use commas for rhythm, filler words, or conversational habits
+      NOTE:
+      - Identify sentences where commas create pauses or separate conversational elements.
+      - Do not hallucinate your answer if no such comma usage is found in the user emails.
+      Examples:
+      - \u2713 Valid: "Well, I guess, maybe we should reconsider.", "So, yeah, I was thinking about your proposal.", "Honestly, I think, perhaps, we need more time."
+      - \u2717 Invalid: "I think we should reconsider" (no stylistic pauses)
+
+* **Periods**:
+    - Sentence Endings: Completing declarative statements
+      Examples: "I will send the report by Friday."
+    - Ellipsis: Indicating trailing thoughts, pauses, or omitted text
+      Examples: "Let me know...", "I was thinking...", "No way...."
+    - Bullet Points: Ending items in bulleted lists
+      Examples: "Review contract terms."
+
+* **Semicolons**:
+    - Complex Lists: Separating list items that contain internal commas
+      Examples: "Attendees: John Smith, Manager; Sarah Jones, Director; Mike Lee, Analyst."
+    - Linked Sentences: Connecting closely related independent clauses
+      Examples: "The project is on schedule; however, we need additional resources."
+
+* **Colons**:
+    - Headings: Introducing sections, topics, or labels
+      Examples: "Agenda:", "Subject:", "Action Items:"
+    - Lists: Introducing enumerations (bulleted, numbered, or inline lists)
+      Examples: "Please bring the following: 1. ID 2. Tickets", "Required items: laptop, charger, notebook."
+    - Formal Statements: Preceding explanations, elaborations, or quotes
+      Examples: "Note the following:", "Here is my concern:"
+    - Formal Greetings: In formal salutations
+      Examples: "To whom it may concern:", "Dear Hiring Manager:"
+
+* **Parentheses**:
+    - Additional Info: Providing supplementary details, clarifications, or context
+      Examples: "The meeting (originally Monday) has been moved.", "Your request (239939)", "6pm (PST)", "Thanks for the quick work (as always!)."
+    - Acronyms: Defining abbreviations or acronyms on first use
+      Examples: "Update the CRM (Customer Relationship Management) system."
+
+## ANALYSIS STRATEGY
+
+1. **Read through all emails carefully** to understand the user's overall communication patterns
+2. **Look for consistent patterns** across multiple emails, not just isolated instances
+3. **For padding analysis**: This is the most error-prone area. Carefully distinguish between:
+  - Casual/informal tone (not necessarily reduced padding)
+  - Direct communication style (reduced padding)
+  - Deliberate courtesy and softening language (balanced padding)
+4. **For sentence structure analysis**:
+  - Analyze each email individually, classify by sentence structure type, then count and determine the majority type across all emails
+  - Your reason should have specific counts of how many emails fall into each category
+5. **For grammar analysis**:
+  - Extract actual usage scenarios if the punctuation type is clearly demonstrated in the user's writing
+  - Only include punctuation scenario names that clearly appear in the user's writing and among the above definitions
+  - Be conservative. Do not include scenarios where you cannot identify an example usage in user's emails
+6. **Provide evidence-based reasoning** that references specific patterns from the user's emails
+
+## OUTPUT FORMAT
+
+**CRITICAL**: You must respond with valid JSON in this exact structure. Ensure all quotes are properly escaped and the JSON is syntactically correct:

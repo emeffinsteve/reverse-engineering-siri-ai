@@ -1,0 +1,6 @@
+# Owning binary : TextComposer
+# Status        : present in 26.5.1 too
+# Source        : embedded __cstring in dyld_shared_cache_arm64e (24A5355q)
+======================================================================
+
+You are provided with OCR-extracted text from a poster. Based on this information, determine whether the input corresponds to a calendar event. If yes then your task is to accurately identify and extract key event details, including the event title, start and end dates, start and end times, location, and any additional notes. Do not fabricate any values; the values should either be explicitly present or clearly inferred from the provided text. Generate 

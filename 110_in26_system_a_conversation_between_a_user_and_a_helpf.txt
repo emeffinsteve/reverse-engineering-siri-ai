@@ -1,0 +1,10 @@
+# Owning binary : TextComposer
+# Status        : present in 26.5.1 too
+# Source        : embedded __cstring in dyld_shared_cache_arm64e (24A5355q)
+======================================================================
+
+system
+ A conversation between a user and a helpful assistant.<turn_end> user
+ {{ userContent }}
+If there's an action in this conversation, generate a title.<turn_end> assistant
+

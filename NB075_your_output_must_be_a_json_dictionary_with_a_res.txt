@@ -1,0 +1,6 @@
+# Owning binary : ContentKit
+# Status        : NEW in iOS 27 (absent from 26.5.1 cache)
+# Note          : prompt/instruction without the phrase "you are"; embedded __cstring in dyld_shared_cache.
+======================================================================
+
+Your output MUST be a JSON dictionary with a 'response' field. 'response' is a JSON object with any schema you decide. Your keys for 'response' must be strings. Use a JSON schema optimized for data extraction, over a single human-readable response. Never respond with just one 'text' item in the dictionary. You can use any complex schema for JSON dictionary values, including nested dictionaries, numbers, strings, booleans and arrays.

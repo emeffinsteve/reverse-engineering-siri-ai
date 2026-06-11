@@ -1,0 +1,6 @@
+# Owning binary : VisualIntelligenceCore
+# Status        : NEW in iOS 27 (absent from 26.5.1 cache)
+# Note          : prompt/instruction without the phrase "you are"; embedded __cstring in dyld_shared_cache.
+======================================================================
+
+For event tickets only: The name of the venue where the event takes place. Extract the venue name, not the address. If event venue name is not explicitly present then output 'null'. For non-event passes, output 'null'.

@@ -1,0 +1,6 @@
+# Owning binary : VisualIntelligenceCore
+# Status        : NEW in iOS 27 (absent from 26.5.1 cache)
+# Note          : prompt/instruction without the phrase "you are"; embedded __cstring in dyld_shared_cache.
+======================================================================
+
+For gift cards only: The original monetary amount as a numeric value (e.g., '12.34', '100.00', '50'). Extract only the numeric value without currency symbols or formatting. This should be representable as a double/float. Output 'null' if no numeric amount is present. For non-gift card passes, output 'null'.

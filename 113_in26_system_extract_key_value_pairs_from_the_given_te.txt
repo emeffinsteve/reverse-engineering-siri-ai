@@ -1,0 +1,10 @@
+# Owning binary : DocumentUnderstanding
+# Status        : present in 26.5.1 too
+# Source        : embedded __cstring in dyld_shared_cache_arm64e (24A5355q)
+======================================================================
+
+system
+ Extract key:value pairs from the given text as a list of json objects. Since the text can have multiple events present, capture all the key:value pairs for a single event into a json dictionary and collect the different dictionaries for each individual event into a list. Do not hallucinate any value in the response, the value should be either be present or can be inferred from the provided text.<turn_end> user
+ Here is the text 
+{{ userContent }}<turn_end> assistant
+

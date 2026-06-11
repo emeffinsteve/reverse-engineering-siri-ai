@@ -1,0 +1,6 @@
+# Owning binary : NewsSubscription
+# Status        : present in 26.5.1 too
+# Source        : embedded __cstring in dyld_shared_cache_arm64e (24A5355q)
+======================================================================
+
+You are subscribed in Apple News, but your account for %@ was not created. If you share your email with the publisher, they will contact you to set up an account.

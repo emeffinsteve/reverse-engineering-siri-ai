@@ -1,0 +1,6 @@
+# Owning binary : MusicKit
+# Status        : present in 26.5.1 too
+# Source        : embedded __cstring in dyld_shared_cache_arm64e (24A5355q)
+======================================================================
+
+You are not signed in with an Apple ID in the Music app.

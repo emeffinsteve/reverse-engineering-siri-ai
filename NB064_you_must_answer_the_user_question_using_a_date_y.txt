@@ -1,0 +1,6 @@
+# Owning binary : ContentKit
+# Status        : NEW in iOS 27 (absent from 26.5.1 cache)
+# Note          : prompt/instruction without the phrase "you are"; embedded __cstring in dyld_shared_cache.
+======================================================================
+
+You MUST answer the user question using a date. Your output should be a JSON dictionary with fields 'year', 'month', 'day', 'hour', 'minute', 'second'. Try to fill out the date as best you can. If there's no value for a field, leave it empty.

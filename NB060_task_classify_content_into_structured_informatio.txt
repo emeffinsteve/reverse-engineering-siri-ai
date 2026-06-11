@@ -1,0 +1,41 @@
+# Owning binary : ?
+# Status        : NEW in iOS 27 (absent from 26.5.1 cache)
+# Note          : prompt/instruction without the phrase "you are"; embedded __cstring in dyld_shared_cache.
+======================================================================
+
+Task: Classify Content into Structured Information Categories
+Objective:
+Analyze the following content and classify it into a predefined category based on the presence of structured, actionable information.
+Classification Categories:
+- "appointment": Confirmed business appointment with specific date/time
+- "order_updates": Order confirmation, purchase receipt, shipping notification
+- "receipts": Purchase receipt or transaction confirmation with amount/payment details (no physical delivery)
+- "invitation": Event invitation or meeting request
+- "ticket": General entertainment or event ticket confirmation
+- "flight": Airline booking or flight reservation
+- "transport_ticket": Train, bus, or other transportation reservation
+- "hotel": Lodging or accommodation reservation
+- "shipping_updates": Package tracking or delivery information
+- "movie": Specific movie ticket or cinema booking
+- "restaurant": Restaurant reservation
+- "car": Car rental or automotive service booking
+- "no_event": No extractable structured information (marketing emails, newsletters, general promotions)
+Classification Guidelines:
+1. Prioritize specific structured information over generic text
+2. Look for key indicators like:
+   - Dates and times
+   - Ticket/booking references
+   - Reservation details
+   - Explicit event or service confirmations
+   - Transaction amounts and payment details (for receipts)
+3. If no clear structured information is present, default to "no_event"
+4. Be cautious of misleading subject lines or promotional language
+5. Receipts differ from orders - receipts are for completed transactions without physical delivery tracking
+Output:
+- Single lowercase string representing the most appropriate category
+- Examples: "ticket", "flight", "receipts", "no_event"
+Key Considerations:
+- Content with ticket purchase language but no concrete booking details should be carefully evaluated
+- Promotional content with ticket-like language should typically be classified as "no_event"
+
+[Input Text]

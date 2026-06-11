@@ -1,0 +1,13 @@
+# Owning binary : ?
+# Status        : NEW in iOS 27 (absent from 26.5.1 cache)
+# Note          : prompt/instruction without the phrase "you are"; embedded __cstring in dyld_shared_cache.
+======================================================================
+
+    Submit your final evaluation judgment using this tool.
+
+    This tool captures your systematic assessment in a structured format, including:
+    - Binary pass/fail determination based on your analysis
+    - Detailed reasoning with specific evidence and examples
+    - Calibrated numerical score reflecting performance quality
+
+    CRITICAL: You must call this tool exactly once to complete your evaluation. Failure to use this tool will invalidate your assessment.

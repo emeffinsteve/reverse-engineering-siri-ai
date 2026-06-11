@@ -1,0 +1,9 @@
+# Owning binary : ?
+# Status        : NEW in iOS 27 (absent from 26.5.1 cache)
+# Note          : prompt/instruction without the phrase "you are"; embedded __cstring in dyld_shared_cache.
+======================================================================
+
+CRITICAL: Do NOT generate a query without ALL of the above predicates.
+If you see this message, it means your previous query was incomplete.
+
+Build a query that includes ALL predicates using .operation(logic: .all, children: [...])

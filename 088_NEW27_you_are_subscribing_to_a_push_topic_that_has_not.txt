@@ -1,0 +1,6 @@
+# Owning binary : ApplePushService
+# Status        : NEW in iOS 27 (not in 26.5.1)
+# Source        : embedded __cstring in dyld_shared_cache_arm64e (24A5355q)
+======================================================================
+
+You are subscribing to a push topic that has not been enabled. This can lead to undefined behavior.  Please enable topics before subscribing.

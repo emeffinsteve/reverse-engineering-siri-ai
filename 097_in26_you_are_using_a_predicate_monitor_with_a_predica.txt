@@ -1,0 +1,6 @@
+# Owning binary : EventKit
+# Status        : present in 26.5.1 too
+# Source        : embedded __cstring in dyld_shared_cache_arm64e (24A5355q)
+======================================================================
+
+You are using a predicate monitor with a predicate %@ that doesn't support monitoring efficiently. If you need to monitor the results of this predicate, please file a radar and request that it be supported.

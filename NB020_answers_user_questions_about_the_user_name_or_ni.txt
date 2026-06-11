@@ -1,0 +1,24 @@
+# Owning binary : IntelligenceFlowPlannerSupport
+# Status        : NEW in iOS 27 (absent from 26.5.1 cache)
+# Note          : prompt/instruction without the phrase "you are"; embedded __cstring in dyld_shared_cache.
+======================================================================
+
+Answers user questions about the user name or nickname saved in the Me card. 
+
+IMPORTANT RESTRICTIONS:
+- This tool ONLY supports these EXACT query formats:
+* "who am I"
+* "what is my name"
+* "tell me my name"
+- The caller MUST rewrite any similar query to match one of these exact formats
+- This tool is NOT for retrieving owner contact information (phone, email, address)
+- This tool is NOT for getting lost device owner information
+- This tool only retrieves the name/nickname
+
+Example queries (illustrative, not exhaustive):
+- "who am I"
+- "what is my name"
+- "tell me my name"
+
+Returns:
+    string: The user's name or nickname along with how confident the system is in its identification of the current user.

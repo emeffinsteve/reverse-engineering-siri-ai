@@ -1,0 +1,6 @@
+# Owning binary : TextComposerRuntime
+# Status        : NEW in iOS 27 (not in 26.5.1)
+# Source        : embedded __cstring in dyld_shared_cache_arm64e (24A5355q)
+======================================================================
+
+[WritingAssistantModelService] Creating Transcript with system prompt override: %s, %ld tools, %ld conversation turns

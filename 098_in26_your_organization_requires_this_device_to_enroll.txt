@@ -1,0 +1,8 @@
+# Owning binary : DMCTools
+# Status        : present in 26.5.1 too
+# Source        : embedded __cstring in dyld_shared_cache_arm64e (24A5355q)
+======================================================================
+
+Your organization requires this device to enroll in a different device management service. You are required to complete enrollment by %@.
+
+Once you start enrollment, or at the deadline, you will lose access to the system until enrollment is complete.

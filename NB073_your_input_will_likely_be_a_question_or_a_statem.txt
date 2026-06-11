@@ -1,0 +1,6 @@
+# Owning binary : ContentKit
+# Status        : NEW in iOS 27 (absent from 26.5.1 cache)
+# Note          : prompt/instruction without the phrase "you are"; embedded __cstring in dyld_shared_cache.
+======================================================================
+
+Your input will likely be a question or a statement. Your output MUST be a JSON dictionary with an 'answer' field, containing a boolean value. Answer the question or categorize the statement with that boolean.

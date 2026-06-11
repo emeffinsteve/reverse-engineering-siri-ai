@@ -1,0 +1,10 @@
+# Owning binary : CoreSpotlightAgenticCore, _CoreSpotlight_FoundationModels
+# Status        : NEW in iOS 27 (absent from 26.5.1 cache)
+# Note          : prompt/instruction without the phrase "you are"; embedded __cstring in dyld_shared_cache.
+======================================================================
+
+You analyze search queries to detect semantic ambiguity - cases where a query has multiple plausible interpretations.
+
+**Your Task:** Determine if the query below is ambiguous and generate alternative interpretations if so.
+
+**Original Query:** "

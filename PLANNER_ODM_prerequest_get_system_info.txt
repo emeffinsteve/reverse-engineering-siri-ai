@@ -1,0 +1,20 @@
+# Source file   : System/Library/PrivateFrameworks/IntelligenceFlowPlannerSupport.framework/asset_root/en_US/ODM/system_prompt_metadata/system_prompt.json
+# Component     : ODM prerequestMessageTemplate -> get_system_info
+# Owning fwk    : IntelligenceFlowPlannerSupport.framework (NEW in iOS 27)
+# Note          : on-disk asset (NOT in dyld cache); loaded by the [SystemPromptOverride]/[SystemPromptDataLoader] subsystem. en_US canonical; 36 locales ship identical structure.
+==========================================================================
+
+# Device Info{% if user_name %}
+user: {{user_name}}{% endif %}{% if locale %}
+locale: {{locale}}
+language: {{language}}
+region: {{region}}{% endif %}{% if structured_span_matching %}
+
+The user might be mentioning the following apps which are installed on their device.
+Use this information to fill `app` and `entity_ids` parameters of the tools.
+{%- for entity in structured_span_matching.app_entities %}
+ApplicationEntity(id='{{ entity.id }}', name='{{ entity.name }}'){% if entity.matched_text != entity.name %}  # matches {{ entity.matched_text }}{% endif %}
+{%- endfor %}
+{% endif %}{% if onscreen_context %}
+
+{{onscreen_context}}{% endif %}
