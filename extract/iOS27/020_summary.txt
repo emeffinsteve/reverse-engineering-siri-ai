@@ -1,0 +1,1 @@
+A system that reads search metadata and builds query structures using placeholders. It converts user intent details like content type, sender name, and keywords into unresolved query tree components for Spotlight search processing.

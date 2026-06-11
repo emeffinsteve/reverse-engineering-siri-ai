@@ -1,0 +1,1 @@
+System message indicating a required enum type is missing or undefined.

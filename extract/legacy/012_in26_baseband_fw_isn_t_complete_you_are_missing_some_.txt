@@ -1,0 +1,1 @@
+Baseband FW isn't complete. You are missing some images!

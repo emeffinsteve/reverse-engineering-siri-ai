@@ -1,0 +1,1 @@
+A system message stating that the user is not an event organizer, so no suggestions will be made.

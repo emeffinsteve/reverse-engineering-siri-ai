@@ -1,0 +1,1 @@
+Prompt template with role tokens and conversation structure. Processes user prompts through assistant responses.

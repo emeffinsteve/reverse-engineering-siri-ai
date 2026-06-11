@@ -1,0 +1,1 @@
+A warning message that firmware is incomplete and some image files are missing.

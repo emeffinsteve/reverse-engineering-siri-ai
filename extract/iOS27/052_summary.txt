@@ -1,0 +1,1 @@
+Build a linguistic profile from emails extracting nicknames, salutations, openings, closings, sign-offs, signatures, and relationships. Use only verbatim email text.

@@ -1,0 +1,1 @@
+Update existing calendar event text based on property changes. Do not add relative date words like today or tomorrow unless they were already present and unchanged.

@@ -1,0 +1,21 @@
+Add a pass to Apple Wallet with the provided details.
+
+## What to Extract (Intelligence Passes)
+
+Extract information ONLY from these pass types:
+- **Gift Cards**
+- **Membership Cards** (includes loyalty cards, rewards cards, store cards)
+- **Event Tickets**
+
+## What NOT to Extract
+
+Do NOT call this tool for:
+- Boarding passes (airline, train, bus)
+- Government IDs (driver's license, passport, ID cards)
+
+## Important Guidelines
+- Extract only information that is explicitly visible in the image
+- Do not hallucinate or infer values that are not present
+- Omit optional fields that are not visible in the image (do not include them with null values)
+- Use empty list [] for list fields (event_performer_names, event_seats) when no values are present
+- For dates/times, always use ISO 8601 format

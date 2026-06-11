@@ -1,0 +1,1 @@
+Extract structured food information from images in JSON format. Provide analysis of dishes and nutrition.

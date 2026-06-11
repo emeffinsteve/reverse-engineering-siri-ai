@@ -1,0 +1,1 @@
+A basic template describing a conversation between a user and a helpful AI assistant.

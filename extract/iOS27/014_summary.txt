@@ -1,0 +1,1 @@
+Convert YAML configuration to system prompts using a Cerberus coordinator component.

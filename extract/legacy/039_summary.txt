@@ -1,0 +1,1 @@
+A warning that decoding resolution token maps during equality checks is inefficient unless running tests.

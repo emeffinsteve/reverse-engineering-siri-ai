@@ -1,0 +1,1 @@
+Issue reporting guide for Hearing Test feature. Describe problems without including sensitive health data.

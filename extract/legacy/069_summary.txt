@@ -1,0 +1,1 @@
+Issue reporting guide for Health Records feature. Avoid sharing sensitive data and redact screenshots if needed.

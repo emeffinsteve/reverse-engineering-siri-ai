@@ -1,0 +1,1 @@
+Analyze communication patterns and calendar events to identify relationships between people. Return structured JSON with verified patterns only.

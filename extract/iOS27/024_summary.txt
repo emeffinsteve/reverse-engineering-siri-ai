@@ -1,0 +1,1 @@
+Resolve ambiguous references in Spotlight search queries, particularly relative time expressions like "last week".

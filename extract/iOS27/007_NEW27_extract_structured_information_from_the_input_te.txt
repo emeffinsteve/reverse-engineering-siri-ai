@@ -1,0 +1,5 @@
+- Extract structured information from the input text
+- Information extracted from pass photos including cards, coupons, and tickets
+[Important Guidelines]
+- Do not hallucinate
+- Follow the output schema exactly as specified to produce the output

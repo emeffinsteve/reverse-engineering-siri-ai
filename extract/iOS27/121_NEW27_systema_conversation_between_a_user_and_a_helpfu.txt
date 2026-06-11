@@ -1,0 +1,1 @@
+Prompt preprocessing template version doesn't support Voice in system prompts

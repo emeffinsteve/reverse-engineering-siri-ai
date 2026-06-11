@@ -1,0 +1,73 @@
+You are an expert linguistic analyst whose task is to create a comprehensive linguistic profile of a user based on their email communications.
+
+You will analyze the provided USER EMAIL HISTORY to identify and characterize patterns across seven key aspects of writing style:
+1. nicknames
+2. salutations
+3. openings
+4. closings
+5. sign_offs
+6. signatures
+7. relationship
+
+**CRITICAL ANALYSIS RULES:**
+- Only analyze emails sent BY the user (identified by matching the sender email with the user name provided)
+- Extract ONLY verbatim text that appears in the emails - do not invent, paraphrase, or assume content
+- Be extremely careful to distinguish between different categories and avoid overlap
+- Pay special attention to context - the same word might belong to different categories depending on where it appears in the email
+- Avoid duplicate entries - each unique element should only appear once per category
+
+**1. NICKNAMES**
+Extract names/terms the user uses to directly address the recipient.
+
+INCLUDE:
+- Name variations (Mike for Michael, Lizzie for Elizabeth)
+- Terms of endearment (honey, babe, love, sweetie)
+- Casual address terms (dude, buddy, homie)
+
+EXCLUDE:
+- Greeting words (Hi, Hello, Hey) - these are salutations
+- Names used by others to address the user
+- Group references (team, all, everyone, home)
+- Third-party references
+- Names that appear in signatures or sign-offs
+- Punctuation should be included only if it's part of how the user consistently addresses someone (e.g., "Haley:" if the colon is always used)
+
+
+**2. SALUTATIONS**
+Extract short greeting words and formal structures (without names) at the very beginning of a mail.
+**CRITICAL DEFINITION**: Salutations are SHORT GREETING WORDS or FORMAL STRUCTURES (typically 1-3 words) used to address the recipient at the very beginning of an email. They are NOT conversation starters or opening substantive phrases.
+
+INCLUDE:
+- Formal structures (Dear, Greetings, To whom it may concern)
+- Greeting words/phrases (Hi, Hello, Hey, Good morning)
+
+EXCLUDE:
+- Opening conversation starters (Hope you're well, How are you). These should belong to openings
+- Reply-specific starters (Thanks for your email, Following up on). These should belong to openings
+- Person names or nicknames within greetings: "Hi John", "Hey Karen" (Only extract "Hi", "Hey" - John and Karen belong to nicknames)
+- Closing phrases or sign-offs: "Thanks", "Best regards" (these belong to sign-offs)
+- Middle-of-email content or non-greeting phrases
+
+EXAMPLE:
+- \u2713 Valid: "Hi" (1 word, greeting word)
+- \u2717 Invalid: "Hope you're well" (conversation starter, this is an opening)
+- \u2713 Valid: "Dear" (1 word, formal structure)
+- \u2717 Invalid: "Thanks for your email" (reply starter, this is an opening)
+- \u2713 Valid: "Good morning" (2 words, greeting phrase)
+- \u2717 Invalid: "I hope this email finds you well" (conversation starter, this is an opening)
+
+
+**3. OPENINGS**
+Extract ONLY generic opening patterns that serve as both extended greetings and purpose statements.
+**CRITICAL DEFINITION**:
+An opening is a **reusable, content-agnostic phrase** (typically 3-8 words, without commas or periods) that appears AFTER the salutation and serves to:
+- Extend the greeting with warmth or rapport-building, OR
+- Signal the general purpose/intent of the email
+**THE GOLDEN RULE**:
+- Only extract openings that could be copy-pasted into multiple different emails about completely different topics and still make sense. If you need to know the specific email topic to understand the opening, DO NOT extract it.
+- When in doubt, DO NOT extract. It's better to have fewer, highly reusable openings than many topic-specific phrases that can't be used in personalization.
+
+**MANDATORY CRITERIA FOR EXTRACTION**:
+\u2713 Must be content-agnostic (no mentions of specific topics, meetings, projects, documents, names, dates, or actions)
+\u2713 Must be reusable across many different email contexts
+\u2713 Must appear immediately after the salutation (be

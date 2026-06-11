@@ -1,0 +1,1 @@
+Build multi-stage search pipelines with query, grouping, counting, and limit stages to find and aggregate data from Spotlight.

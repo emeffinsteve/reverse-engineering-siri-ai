@@ -1,0 +1,1 @@
+Act as a director reviewing a story to identify up to five irrelevant assets from a photo library. Return the asset IDs as a JSON array.

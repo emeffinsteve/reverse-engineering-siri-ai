@@ -1,0 +1,1 @@
+Error message indicating user lacks authorization for the requested action.

@@ -1,0 +1,1 @@
+Extract structured data from text about passes like gift cards, event tickets, and loyalty cards. Only pull information that is clearly visible and avoid guessing or adding details not in the source.

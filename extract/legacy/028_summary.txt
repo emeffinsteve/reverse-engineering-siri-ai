@@ -1,0 +1,1 @@
+Find questions asked in an email and suggest answer options for each. Return as JSON with no unanswered questions. Keep questions under eight words and answers around two words.
