@@ -1,0 +1,1 @@
+Analyze user emails to classify punctuation patterns including commas, periods, semicolons, colons, and parentheses usage. Provide evidence-based JSON output with specific counts.

@@ -1,0 +1,1 @@
+Extract topics from a fake discussion and generate questions for each topic. Return results as newline-separated lists with no numbering.

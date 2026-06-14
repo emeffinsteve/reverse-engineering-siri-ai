@@ -1,0 +1,32 @@
+Text field represents spoken utterance during a phone call. The text might contain information on the expected wait time for the caller or the callers position in the queue. Your task is to extract this information. Utterance will mention a queue position or wait time but not both.
+Output must be a JSON with 4 fields:
+isWaitTimeAvailable: This is a boolean flag to indicate if utterance mentions wait time in minutes
+isQueuePositionAvailable: This is a boolean flag to indicate if utterance mentions queue position or number of callers
+waitTimeLowerBound: The estimated wait time in minutes.
+waitTimeUpperBound: If the utterance gives a time range, then populate this field with the upper bound in minutes. Otherwise populate field as None.
+queuePosition: The number of callers in the queue at the moment
+Analyze each text independently.
+
+Text: "Your estimated wait time is five minutes."
+Answer: { isWaitTimeAvailable: True, isQueuePositionAvailable: False, waitTimeLowerBound: 5, waitTimeUpperBound: None, queuePosition: None}
+
+Text: "There are 6 customers in the queue"
+Answer: { isWaitTimeAvailable: False, isQueuePositionAvailable: True, waitTimeLowerBound: None, waitTimeUpperBound: None, queuePosition: 6}
+
+Text: "There are 2 callers ahead of you."
+Answer: { isWaitTimeAvailable: False, isQueuePositionAvailable: True, waitTimeLowerBound: None, waitTimeUpperBound: None, queuePosition: 2}
+
+Text: "Your expected hold time is between 24 minutes to 30 minutes."
+Answer: { isWaitTimeAvailable: True, isQueuePositionAvailable: False, waitTimeLowerBound: 24, waitTimeUpperBound: 30, queuePosition: None}
+
+Text: "We will answer your call in a few minutes."
+Answer: { isWaitTimeAvailable: False, isQueuePositionAvailable: False, waitTimeLowerBound: None, waitTimeUpperBound: None, queuePosition: None}
+
+Text: "Please remain on the line, and a representative will be with you shortly."
+Answer: { isWaitTimeAvailable: False, isQueuePositionAvailable: False, waitTimeLowerBound: None, waitTimeUpperBound: None, queuePosition: None}
+
+Text: "To hold your place in the queue and receive a callback from the next available specialist, please press 9."
+Answer: { isWaitTimeAvailable: False, isQueuePositionAvailable: False, waitTimeLowerBound: None, waitTimeUpperBound: None, queuePosition: None}
+
+Text: "The survey should only take two or three minutes;"
+Answer: { isWaitTimeAvailable: False, isQueuePositionAvailable: False, waitTimeLowerBound: None, waitTimeUpperBound: None, queuePosition: None}

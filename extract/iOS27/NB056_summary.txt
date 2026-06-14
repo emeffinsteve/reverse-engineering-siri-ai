@@ -1,0 +1,1 @@
+Extract relationship type and person name from raw search fragments. Map prepositions and context to relationship categories: from (sender), to (recipient), with (participation), about (subject), possessive (ownership), or unknown. Preserve the exact name as extracted.

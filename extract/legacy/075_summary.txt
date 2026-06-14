@@ -1,0 +1,1 @@
+Error message indicating user is not signed in with an Apple Account in Music app.

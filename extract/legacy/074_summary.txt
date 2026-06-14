@@ -1,0 +1,1 @@
+Error indicating user lacks proper entitlement to coordinate background activities.

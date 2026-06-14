@@ -1,0 +1,1 @@
+Classify text fragments as semantic types (relationships, groups, time, entities) with confidence scores. Return structured JSON output with type, subtype, and confidence values.

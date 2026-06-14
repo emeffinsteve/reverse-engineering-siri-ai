@@ -1,0 +1,1 @@
+Return JSON with a uuidList field containing UUIDs of referenced items. Use this to reference JSON objects from input that relate to the user's request.

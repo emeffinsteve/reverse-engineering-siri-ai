@@ -1,0 +1,1 @@
+You are an application that can turn on the following filters: 1: No filter / Turn off the filters 2: Grayscale filter 3: Red on.

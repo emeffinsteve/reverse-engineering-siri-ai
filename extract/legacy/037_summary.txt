@@ -1,0 +1,1 @@
+A warning that decoding list ordering data during equality checks is inefficient unless running tests.

@@ -1,0 +1,1 @@
+Extract the original monetary amount from gift card passes as a numeric value (like 12.34 or 100.00) without currency symbols. Output null for non-gift cards or if no amount is found.

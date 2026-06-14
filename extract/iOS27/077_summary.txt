@@ -1,0 +1,1 @@
+Code blocks in tiles can only be opened once before the tile closes. If a codestream object is persistent, you may re-open code-blocks after re-opening their tiles.

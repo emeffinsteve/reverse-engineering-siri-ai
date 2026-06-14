@@ -1,0 +1,1 @@
+A company enrollment notice requiring the device to switch device management services by a deadline. Warns users will lose system access until enrollment completes.

@@ -1,0 +1,1 @@
+Notification message that the user is a delegate of an event invitee.

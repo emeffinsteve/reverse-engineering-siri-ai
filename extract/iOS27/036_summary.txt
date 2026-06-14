@@ -1,0 +1,1 @@
+Evaluate conversation flows using rigorous methodology. Assess coherence, tool usage, consistency, task completion, and reliability with evidence-based scoring.

@@ -1,0 +1,1 @@
+Decide whether custom ranking would improve search results in Spotlight. Use tools to check if ranking attributes exist and validate decisions before finalizing.

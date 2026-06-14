@@ -1,0 +1,1 @@
+Act as a helpful assistant in a conversation. Generate a personal query based on user input.

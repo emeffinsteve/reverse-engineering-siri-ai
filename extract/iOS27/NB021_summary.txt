@@ -1,0 +1,1 @@
+Include all required predicates in queries. Use .operation with .all logic to combine all predicates in search queries.

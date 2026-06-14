@@ -1,0 +1,1 @@
+A message warning that a duplicate item is being added next to an existing item.

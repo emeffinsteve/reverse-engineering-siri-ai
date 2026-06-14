@@ -1,0 +1,1 @@
+Summarize HomeKit notifications about home events accurately without adding information not in the original.

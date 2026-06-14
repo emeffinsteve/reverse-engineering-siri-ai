@@ -1,0 +1,1 @@
+Generate short, descriptive titles (3-6 words) for conversations based on main topic. Titles should be specific and natural without prefixes or quotes.

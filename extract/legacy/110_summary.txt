@@ -1,0 +1,1 @@
+A system prompt template for a helpful assistant. Instructs the system to generate a title if an action is detected in a conversation.

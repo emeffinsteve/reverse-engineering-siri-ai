@@ -1,0 +1,1 @@
+Instructions for an AI system to extract key:value pairs from text as JSON. Handles multiple events and prohibits hallucinating missing values.

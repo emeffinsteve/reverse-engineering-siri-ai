@@ -1,0 +1,1 @@
+Monitor webpage changes and determine if the user should be notified based on monitoring conditions. Output raw JSON with no markdown formatting.

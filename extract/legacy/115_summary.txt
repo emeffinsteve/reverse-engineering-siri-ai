@@ -1,0 +1,1 @@
+Instructions for an email assistant to refine draft replies using answers to identified questions. Instructs the system to write concise, factual responses under 50 words.

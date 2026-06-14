@@ -1,0 +1,1 @@
+For gift cards, extract the ISO 4217 currency code. Return null if no currency or for non-gift card passes.

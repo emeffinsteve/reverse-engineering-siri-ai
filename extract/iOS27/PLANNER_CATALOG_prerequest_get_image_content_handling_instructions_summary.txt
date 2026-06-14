@@ -1,0 +1,1 @@
+Instruct the assistant how to handle images including DRM content detection, visual perception questions, alarms/timers, fact-checking, find queries, visionOS grounding with bounding boxes.

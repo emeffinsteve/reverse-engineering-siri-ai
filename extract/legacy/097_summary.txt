@@ -1,0 +1,1 @@
+A developer warning about inefficient calendar event monitoring. Tells developers that their predicate doesn't monitor efficiently and requests they file a bug report.

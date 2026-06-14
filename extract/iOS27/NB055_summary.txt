@@ -1,0 +1,1 @@
+Coordinate multiple specialist agents to handle complex Spotlight searches. Use agents to resolve ambiguous person references, build optimized queries, configure custom ranking, and validate results. Return JSON with found items and metadata.

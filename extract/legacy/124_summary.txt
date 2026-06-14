@@ -1,0 +1,1 @@
+System error indicating the prompt template version does not support voice in system prompts.

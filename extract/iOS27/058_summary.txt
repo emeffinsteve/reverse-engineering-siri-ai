@@ -1,0 +1,1 @@
+Route search requests to specialist agents for intent extraction, disambiguation, ranking optimization, and pipeline composition.

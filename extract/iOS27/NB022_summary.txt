@@ -1,0 +1,1 @@
+Extract answers for question-asking queries using platform-provided arguments including raw query, candidates, and transcript.

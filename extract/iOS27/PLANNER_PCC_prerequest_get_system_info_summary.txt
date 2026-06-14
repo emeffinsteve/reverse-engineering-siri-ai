@@ -1,0 +1,1 @@
+Device state template providing user info, contacts, apps, radio stations, and onscreen content for PCC responses with special handling for music and timer entities.

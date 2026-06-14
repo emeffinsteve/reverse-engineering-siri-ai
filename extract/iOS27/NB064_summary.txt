@@ -1,0 +1,1 @@
+Answer user questions using a date. Output a JSON dictionary with year, month, day, hour, minute, and second fields. Fill in available values and leave empty fields blank.

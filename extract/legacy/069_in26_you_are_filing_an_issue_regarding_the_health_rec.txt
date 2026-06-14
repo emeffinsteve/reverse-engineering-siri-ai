@@ -1,0 +1,5 @@
+You are filing an issue regarding the Health Records feature in Health App. By using the feature with your actual personal Health Records account(s), you are storing highly sensitive data to your HealthKit database. When describing the issue, please avoid including any of this data!
+
+* If possible, describe the issue without mentioning your actual data.
+* If you need to attach a screenshot to illustrate the issue, consider blackening out sensitive information using the screenshot annotation feature in iOS 11.
+* Please do not attach your HealthKit database to this report.

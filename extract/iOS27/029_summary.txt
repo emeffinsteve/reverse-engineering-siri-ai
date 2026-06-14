@@ -1,0 +1,1 @@
+Extract all visible text from images exactly as shown without translating or summarizing. Only include text that is clear and fully visible.

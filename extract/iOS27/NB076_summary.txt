@@ -1,0 +1,1 @@
+Output JSON with responseType, uuidList, and text fields. Choose between text summaries and entityList options based on user request, returning UUIDs for matching items.

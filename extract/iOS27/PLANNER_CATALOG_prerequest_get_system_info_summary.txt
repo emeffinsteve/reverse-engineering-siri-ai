@@ -1,0 +1,1 @@
+Template providing device context including user identity, language, gender, time, response mode. Delivers app entities, contact ambiguity warnings, conversation history, onscreen content.

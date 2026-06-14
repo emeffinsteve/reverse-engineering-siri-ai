@@ -1,0 +1,1 @@
+Parse spoken words from a call to extract wait time or queue position information. Return a JSON with fields indicating whether wait time and position are mentioned and their values.

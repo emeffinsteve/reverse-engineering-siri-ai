@@ -1,0 +1,1 @@
+Extract gift card, loyalty card, and event ticket data from images. Only include information that is clearly visible. Do not include optional fields if they are not shown, and use ISO 8601 format for dates and times.

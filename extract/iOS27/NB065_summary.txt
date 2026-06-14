@@ -1,0 +1,1 @@
+Detect semantic ambiguity in search queries. Identify cases where a query has multiple plausible interpretations and generate alternative interpretations if they exist.

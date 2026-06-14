@@ -1,0 +1,1 @@
+Answer questions or categorize statements with a JSON dictionary containing a boolean answer field. Respond true or false based on the user's question or claim.

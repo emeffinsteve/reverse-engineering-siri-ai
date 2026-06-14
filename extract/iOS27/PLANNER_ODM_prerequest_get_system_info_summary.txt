@@ -1,0 +1,1 @@
+Simplified device context template providing user name, locale, and app entity information for ODM integration with minimal system state.
